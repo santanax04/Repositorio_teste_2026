@@ -2,9 +2,11 @@ import { StyleSheet, Text, View } from 'react-native';
 import { GluestackUIProvider } from '@/components/ui/gluestack-ui-provider';
 import '@/global.css';
 import { Button, ButtonText } from '@/components/ui/button';
+import {useRouter} from "expo-router";
 
 
-export default function App() {
+export default function Pagina2() {
+  const router = useRouter();
   return (
     
     <GluestackUIProvider mode="dark">
@@ -17,8 +19,8 @@ export default function App() {
         </Button>
         <Divider className="my-3 w-20"/>
 
-        <Button className='bg-indigo-600'>
-          <ButtonText className='font-bold text-white'>Segundo Página</ButtonText>
+        <Button className='bg-indigo-600' onPress={()=> router.back()}>
+          <ButtonText className='font-bold text-white'>Home</ButtonText>
         </Button>
         <Divider className="my-3 w-20"/>
 

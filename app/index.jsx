@@ -1,7 +1,7 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { GluestackUIProvider } from '@/components/ui/gluestack-ui-provider';
 import '@/global.css';
-import { Button, ButtonText } from './components/ui/button';
+import { Button, ButtonText } from '@/components/ui/button';
 
 
 export default function App() {

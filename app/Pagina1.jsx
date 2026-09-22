@@ -9,7 +9,7 @@ export default function App() {
     
     <GluestackUIProvider mode="dark">
       <View>
-        <Text className="uppercase font-extrabold">Página Home</Text>
+        <Text className="uppercase font-extrabold">Página 1</Text>
         <Divider className="my-3 w-52"/>
 
         <Button className='bg-fuchsia-300'>

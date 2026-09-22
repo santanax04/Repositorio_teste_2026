@@ -2,12 +2,13 @@ import { StyleSheet, View } from 'react-native';
 import { GluestackUIProvider } from '@/components/ui/gluestack-ui-provider';
 import '@/global.css';
 
+
 export default function App() {
   return (
     
     <GluestackUIProvider mode="dark">
       <View style={styles.container}>
-    </View>
+      </View>
     </GluestackUIProvider>
   
   );

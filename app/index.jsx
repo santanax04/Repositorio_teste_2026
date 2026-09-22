@@ -11,7 +11,15 @@ export default function App() {
       <View>
         <Text>Página Home</Text>
         <Button className='bg-fuchsia-300'>
-          <ButtonText className='font-bold'>Primeiro Botão</ButtonText>
+          <ButtonText className='font-bold'>Primeiro Página</ButtonText>
+        </Button>
+
+        <Button className='bg-fuchsia-300'>
+          <ButtonText className='font-bold'>Segundo Página</ButtonText>
+        </Button>
+
+        <Button className='bg-fuchsia-300'>
+          <ButtonText className='font-bold'>Terceira Página</ButtonText>
         </Button>
       </View>
     </GluestackUIProvider>

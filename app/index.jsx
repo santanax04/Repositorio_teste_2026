@@ -9,23 +9,23 @@ export default function App() {
     
     <GluestackUIProvider mode="dark">
       <View>
-        <Text>Página Home</Text>
+        <Text className="uppercase font-extrabold">Página Home</Text>
         <Divider className="my-3 w-52"/>
 
         <Button className='bg-fuchsia-300'>
-          <ButtonText className='font-bold'>Primeiro Página</ButtonText>
+          <ButtonText className='font-bold text-white'>Primeiro Página</ButtonText>
         </Button>
         <Divider className="my-3 w-20"/>
 
-        <Button className='bg-fuchsia-300'>
-          <ButtonText className='font-bold'>Segundo Página</ButtonText>
+        <Button className='bg-indigo-600'>
+          <ButtonText className='font-bold text-white'>Segundo Página</ButtonText>
         </Button>
         <Divider className="my-3 w-20"/>
 
-        <Button className='bg-fuchsia-300'>
-          <ButtonText className='font-bold'>Terceira Página</ButtonText>
+        <Button className='bg-slate-800'>
+          <ButtonText className='font-bold text-white'>Terceira Página</ButtonText>
         </Button>
-        <Divider className="my-3 w-20"/>
+        <Divider className="my-3 w-52"/>
       </View>
     </GluestackUIProvider>
   

@@ -9,10 +9,8 @@ export default function App() {
     
     <GluestackUIProvider mode="dark">
       <View style={styles.container}>
-        <Button>
-          <ButtonText>
-            
-          </ButtonText>
+        <Button className='bg-fuchsia-500'>
+          <ButtonText>Primeiro Botão</ButtonText>
         </Button>
       </View>
     </GluestackUIProvider>

@@ -10,8 +10,8 @@ export default function App() {
     <GluestackUIProvider mode="dark">
       <View style={styles.container}>
         <Text>Página com Expo Router</Text>
-        <Button className='bg-fuchsia-300'>
-          <ButtonText>Primeiro Botão</ButtonText>
+        <Button className='bg-fuchsia-600'>
+          <ButtonText className='color-white font-bold'>Primeiro Botão</ButtonText>
         </Button>
       </View>
     </GluestackUIProvider>

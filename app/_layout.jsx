@@ -6,7 +6,6 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 
 export default function App() {
   return (
-
     <GluestackUIProvider mode="dark">
         <Tabs initialRouteName="Pagina1" screenOptions={{ headerShown: false }}>
           <Tabs.Screen name="Pagina1" options={{ title: "Home", tabBarIcon: ({color, size})=>(

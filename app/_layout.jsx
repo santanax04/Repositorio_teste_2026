@@ -10,7 +10,7 @@ export default function App() {
   return (
     
     <GluestackUIProvider mode="dark">
-      <Tabs>
+      <Tabs initialRouteName="Pagina1">
         <Tabs.screen name="Pagina1"/>
         <Tabs.screen name="Pagina2"/>
         <Tabs.screen name="Pagina3"/>

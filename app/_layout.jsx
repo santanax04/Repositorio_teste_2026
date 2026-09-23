@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { GluestackUIProvider } from '@/components/ui/gluestack-ui-provider';
 import '@/global.css';
 import { Button, ButtonText } from '@/components/ui/button';
+import { Divider } from '@/components/ui/divider';
 import {Link, Stack, Tabs} from "expo-router";
 
 

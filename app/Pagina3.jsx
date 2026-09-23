@@ -7,7 +7,7 @@ export default function Pagina3() {
   const router = useRouter();
   return (
       <Box className="flex-1 justify-center items-center">
-        <Text className="uppercase font-extrabold">Página 3</Text>
+        <Text className="uppercase font-extrabold">Meu Perfil</Text>
       </Box>
   );
 }

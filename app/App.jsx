@@ -1,12 +1,11 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { Button, ButtonText } from '@/components/ui/button';
-import {} from '@/components/ui/divider';
-import {Link} from "expo-router";
+import { Divider } from '@/components/ui/divider';
+import { Link } from "expo-router";
 
 
 export default function App() {
   return (
-
       <View>
         <Text className="uppercase font-extrabold">Página Home</Text>
         <Divider className="my-3 w-52"/>
@@ -32,7 +31,6 @@ export default function App() {
         </Link>
         <Divider className="my-3 w-52"/>
       </View>
-  
   );
 }
 

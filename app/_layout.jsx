@@ -11,9 +11,9 @@ export default function App() {
     
     <GluestackUIProvider mode="dark">
       <Tabs initialRouteName="Pagina1">
-        <Tabs.screen name="Pagina1"/>
-        <Tabs.screen name="Pagina2"/>
-        <Tabs.screen name="Pagina3"/>
+        <Tabs.Screen name="Pagina1"/>
+        <Tabs.Screen name="Pagina2"/>
+        <Tabs.Screen name="Pagina3"/>
       </Tabs>
     </GluestackUIProvider>
   

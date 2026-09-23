@@ -6,8 +6,7 @@ import {Link} from "expo-router";
 
 export default function App() {
   return (
-    
-    <GluestackUIProvider mode="dark">
+
       <View>
         <Text className="uppercase font-extrabold">Página Home</Text>
         <Divider className="my-3 w-52"/>
@@ -33,7 +32,6 @@ export default function App() {
         </Link>
         <Divider className="my-3 w-52"/>
       </View>
-    </GluestackUIProvider>
   
   );
 }

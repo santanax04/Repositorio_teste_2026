@@ -5,7 +5,7 @@ import { Box } from '@/components/ui/box';
 export default function Pagina1() {
   const router = useReuter();
   return (
-    <Box className='flex-1'>
+    <Box className='flex-1 justify-center items-center h-96'>
       <Text className='uppercase font-extrabold'>Pagina 1</Text>
     </Box>
   

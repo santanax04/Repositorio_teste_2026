@@ -8,6 +8,5 @@ export default function Pagina1() {
     <Box className='flex-1 justify-center items-center'>
       <Text className='uppercase font-extrabold'>Inicio</Text>
     </Box>
-  
   );
 }

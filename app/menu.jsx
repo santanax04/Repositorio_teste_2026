@@ -1,0 +1,30 @@
+import { GluestackUIProvider } from '@/components/ui/gluestack-ui-provider';
+import '@/global.css';
+import { Tabs } from 'expo-router';
+import Ionicons from '@expo/vector-icons/Ionicons';
+
+export default function RootLayout() {
+  return (
+    <GluestackUIProvider mode="dark">
+      <Tabs initialRouteName='Pagina1' screenOptions={{ headerShown: false}}>
+        <Tabs.Screen name='Pagina1' options={{
+          title: "Home", tabBarIcon: ({ color, size}) => (
+            <Ionicons name= 'home-outline' color={color} size={size} />
+          )
+        }}/>
+        <Tabs.Screen name="Pagina2" options={{ 
+            title: 'Salvos', tabBarIcon: ({ color, size}) => (
+              <Ionicons name= 'bookmark-outline' color={color} size={size} />
+            )
+          }}/>
+
+        <Tabs.Screen name="Pagina3" options={{
+            title: 'Perfil',tabBarIcon: ({ color, size}) => (
+              <Ionicons name= 'person-outline' color={color} size={size} />
+            )
+          }}/>
+        <Tabs.Screen name="index" options={{ href: null }} />
+      </Tabs>
+    </GluestackUIProvider>
+  );
+}
